@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.p-header input {
+  width: 100%;
+  background-color: #ea2c62;
+  height: 100%;
+  padding: 14px;
+  border-radius: 3px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  color: #fff;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+#submit {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #3282b8;
+  font-size: 18px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#submit:hover {
+  background-color: #ea2c62;
+}
+
+#submit:active {
+  background-color: #3282b8;
+}
+
+body {
+  font-family: Arial;
+  background-color: #7b050d;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #52057b;
+  padding: 20px;
+  border-radius: 5px;
+  width: 370px;
+}
+.container h1 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container .p-header {
+  position: relative;
+}
+.container .p-header button,
+.container .form-control input[type=number] {
+  padding: 3px;
+  background-color: #eee;
+  outline: none;
+  border: none;
+  border-radius: 3px 0 0 0;
+}
+.container .p-header button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
